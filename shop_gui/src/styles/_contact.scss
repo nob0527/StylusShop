@@ -1,0 +1,29 @@
+.form-container{
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0 10px 15px -1px rgba(0,0,0, 0.13);
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  input, textarea{
+    margin: 10px 0;
+    padding: 10px;
+    font: inherit;
+    border: none;
+    outline: none;
+    background-color: #e9ebee;
+    width: 100%;
+
+  }
+
+  textarea{
+    resize: vertical;
+  }
+
+  i{
+    font-size: 50px;
+    color: #e9ebee;
+  }
+}
